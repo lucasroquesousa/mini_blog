@@ -5,10 +5,8 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <h1>Mini Blog</h1>
-      <main>
-        <RoutesApp />
-      </main>
+
+      <RoutesApp />
     </>
   );
 }
