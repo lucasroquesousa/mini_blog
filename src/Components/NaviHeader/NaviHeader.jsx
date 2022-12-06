@@ -11,6 +11,12 @@ const NaviHeader = () => {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
+        <li>
+          <NavLink to="/cadastro">Cadastre-se</NavLink>
+        </li>
+        <li>
+          <NavLink to="/login">Logar</NavLink>
+        </li>
       </ul>
     </ContainerNaviHeader>
   );
