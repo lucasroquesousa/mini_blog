@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerNaviHeader = styled.nav`
-  width: 200px;
+  width: 340px;
 
   ul {
     list-style: none;
@@ -14,20 +14,22 @@ export const ContainerNaviHeader = styled.nav`
     text-decoration: none;
     font-weight: bold;
     font-family: "Roboto";
-    transition: 0.5s;
+
     :hover {
-      text-decoration: underline;
       color: blueviolet;
     }
     a {
-      color: blue;
+      padding: 5px;
+      border-radius: 5px 0px 5px 0px;
+      color: #44749d;
       text-decoration: none;
       font-weight: bold;
       font-family: "Roboto";
-      transition: 0.5s;
+      transition: 0.3s;
       :hover {
-        text-decoration: underline;
-        color: blueviolet;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
       }
     }
   }

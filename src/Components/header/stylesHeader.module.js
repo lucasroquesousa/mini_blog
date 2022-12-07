@@ -1,7 +1,15 @@
 import styled from "styled-components";
 
+/*.color1 { #44749d };
+.color2 { #c6d4e1 };
+.color3 { #ffffff };
+.color4 { #ebe7e0 };
+.color5 { #bdb8ad };
+*/
+
 export const ContainerHeader = styled.header`
   width: 100%;
+  background-color: #c6d4e1;
   height: 100px;
   display: flex;
   justify-content: space-around;

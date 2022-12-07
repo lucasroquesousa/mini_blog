@@ -9,7 +9,13 @@ const NaviHeader = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about">Sobre</NavLink>
+        </li>
+        <li>
+          <NavLink to="/cadastro">Cadastre-se</NavLink>
+        </li>
+        <li>
+          <NavLink to="/login">Logar</NavLink>
         </li>
       </ul>
     </ContainerNaviHeader>
