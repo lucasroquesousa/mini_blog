@@ -21,7 +21,7 @@ export const ContainerNaviHeader = styled.nav`
     a {
       padding: 5px;
       border-radius: 5px 0px 5px 0px;
-      color: blue;
+      color: #44749d;
       text-decoration: none;
       font-weight: bold;
       font-family: "Roboto";
